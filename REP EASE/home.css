@@ -1,0 +1,78 @@
+
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+
+.rfp {
+  width: 200px;
+}
+
+
+.body1 {
+  height: 100vh;
+  margin: 0;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ 
+}
+
+.logo {
+
+  border-radius: 5px;
+  width: 150px;
+  padding: 10px;
+}
+
+
+.header {
+  background-color: rgba(255, 254, 245, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 0px 100px;
+  flex-wrap: wrap;
+  
+
+}
+
+
+
+.links {
+  color: rgba(107, 40, 69, 255);
+  border-radius: none;
+  border: none;
+  background: none;
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.shedule-button {
+  border-radius: 10px;
+  padding: 16px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  background-color: rgba(57, 12, 20, 255);
+  color: rgba(255, 254, 245, 255)
+}
+
+
+
+
+
+
+.photos {
+  width: 100%;
+}

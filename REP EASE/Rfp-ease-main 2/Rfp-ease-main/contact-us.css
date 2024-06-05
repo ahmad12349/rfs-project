@@ -1,0 +1,424 @@
+* {
+  font-family: Be Vietnam Pro, sans-serif;
+}
+
+.container {
+  padding: 100px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  animation-name: color;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+  animation-direction: alternate;
+
+}
+
+/* @keyframes color {
+  from {
+    background-color: whitesmoke;
+  }
+
+  to {
+    background-color: black;
+  }
+} */
+
+
+
+.upper-text {
+  font-size: 30px;
+  font-weight: 700;
+  color: #6d2946;
+}
+
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+
+}
+
+input[type="text"] {
+  border: none;
+  padding: 10px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px gray;
+
+}
+
+
+
+
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 3px 6px #390c14;
+
+}
+
+.name {
+  font-size: 16px;
+
+}
+
+input[type="text"]::placeholder {
+  color: #6d2946;
+}
+
+
+input[type="email"] {
+  border: none;
+  padding: 10px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px gray;
+}
+
+input[type="email"]:focus {
+  outline: none;
+  box-shadow: 0 3px 6px #390c14;
+}
+
+.email {
+  font-size: 16px;
+
+}
+
+input[type="email"]::placeholder {
+  color: #6d2946
+}
+
+input[type="tel"] {
+  border: none;
+  padding: 10px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px gray;
+}
+
+input[type="tel"]:focus {
+  outline: none;
+  box-shadow: 0 3px 6px #390c14;
+}
+
+.phone {
+  font-size: 16px;
+
+}
+
+input[type="tel"]::placeholder {
+  color: #6d2946;
+}
+
+.section4 {
+  position: relative;
+
+}
+
+.msg {
+  resize: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px gray;
+
+}
+
+.msg:focus {
+  outline: none;
+  box-shadow: 0 3px 6px #390c14;
+}
+
+.placeholder-text {
+  font-size: 16px;
+  color: #6d2946;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  pointer-events: none;
+
+}
+
+.done {
+  border: none;
+  background-color: #6d2946;
+  padding: 10px 22px;
+  color: white;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 1px 2px #6d2946;
+  transition: 0.35s ease-in;
+
+
+}
+
+
+.done:hover {
+  border: none;
+  background-color: white;
+  color: #6d2946;
+
+}
+
+.banner-right {
+  background-color: #6d2946;
+  height: 450px;
+  width: 450px;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 10px;
+  box-shadow: -7px 7px 10px gray;
+
+}
+
+
+
+.banner-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+
+}
+
+
+
+.banner-text2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+
+
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+
+}
+
+
+.icon {
+  width: 35px;
+  box-sizing: border-box;
+
+}
+
+.text-edit {
+  font-size: 17px;
+  color: white;
+  font-weight: 700;
+}
+
+.lower-items {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+
+
+
+
+
+.insta-logo {
+  background-color: white;
+  width: 37px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  padding: 2px;
+  transition: 0.33s ease-in-out;
+}
+
+.insta-logo:hover {
+  scale: 1.2;
+  background-color: #390c14;
+
+}
+
+.icon1 {
+  width: 32px;
+  box-sizing: border-box;
+}
+
+
+.facebook-logo {
+  background-color: white;
+  width: 37px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  padding: 1px;
+  transition: 0.33s ease-in-out;
+
+}
+
+.facebook-logo:hover {
+  scale: 1.2;
+  background-color: #390c14;
+}
+
+.icon2 {
+  width: 32px;
+  box-sizing: border-box;
+
+}
+
+.linked-logo {
+  background-color: white;
+  width: 37px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  padding: 2px;
+  transition: 0.33s ease-in-out;
+}
+
+.linked-logo:hover {
+  scale: 1.2;
+  background-color: #390c14;
+}
+
+
+.icon3 {
+  width: 23px;
+  box-sizing: border-box;
+}
+
+.deliver {
+  background-color: rgb(121, 161, 121);
+  color: white;
+  font-weight: 500;
+  padding: 15px 20px;
+  border-radius: 8px;
+  backdrop-filter: 2px;
+  margin-top: 30px;
+  display: none;
+
+
+}
+
+.not-deliver {
+  background-color: rgb(153, 100, 100);
+  color: white;
+  font-weight: 500;
+  padding: 15px 20px;
+  border-radius: 8px;
+  backdrop-filter: 2px;
+  margin-top: 30px;
+  text-align: center;
+  display: none;
+
+}
+
+
+@media screen and (max-width:1018px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width:1018px) {
+  .banner-right {
+    width: 250px;
+
+
+  }
+}
+
+
+@media screen and (max-width:560px) {
+  input[type="text"] {
+    width: 95%;
+  }
+
+  input[type="email"] {
+    width: 95%;
+  }
+
+  input[type="tel"] {
+    width: 95%;
+  }
+
+  textarea {
+    width: 95%;
+
+  }
+
+  .banner-right {
+    width: 140px;
+
+
+  }
+
+
+  .banner-text2 {
+    font-size: 18px;
+
+  }
+
+  .sections {
+    width: 100%;
+    padding: 0;
+
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .icon {
+    width: 25px;
+  }
+
+  .text-edit {
+    font-size: 12px;
+  }
+
+  .insta-logo,
+  .facebook-logo,
+  .linked-logo {
+    width: 27px;
+    height: 27px;
+
+  }
+
+  .icon1,
+  .icon2 {
+    width: 20px;
+  }
+
+  .icon3 {
+    width: 16px;
+  }
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="contact-us.css">
+  <title>Contact Us</title>
+</head>
+
+<body class="container">
+
+
+
+  <form>
+
+    <div class="sections">
+
+      <div class="upper-text">
+        Get in Contact
+      </div>
+
+      <div class="section1">
+        <label for="name"></label>
+        <input type="text" placeholder=" First name *" class="name" required maxlength="100" id="name" name="name">
+      </div>
+
+      <div class="section2">
+        <label for="email"></label>
+        <input type="email" placeholder="E-mail *" class="email" required maxlength="100" id="email" name="email">
+      </div>
+
+
+      <div class="section3">
+        <label for="tel"></label>
+        <input type="tel" placeholder="Phone" class="phone" id="tel" name="tel">
+      </div>
+
+      <div class="section4">
+        <label for="message"></label>
+        <textarea name="message" id="message" oninput="togglePlaceholder(this)" class="msg" rows="7" cols="31.5">
+       </textarea>
+        <div class="placeholder-text" id="placeholder">Drop a message *</div>
+      </div>
+
+
+      <div class="section5">
+        <button class="done" type="submit" value="submit">
+          REACH OUT
+        </button>
+      </div>
+
+      <div class="deliver">
+        Your message has gone through. Thanks!
+      </div>
+
+      <div class="not-deliver">
+        Failed to deliver!
+
+      </div>
+
+
+
+
+    </div>
+
+
+  </form>
+
+
+
+
+  <div class="banner-right">
+
+    <div class="banner-items">
+
+      <h3 class="banner-text2"> Contact Details</h3>
+
+
+      <div class="contact">
+        <img src="pictures/phone-logo.svg" class="icon"> <!-- call -->
+
+        <h class="text-edit">
+          +91 00000000 ,
+          +1 020202020202
+        </h>
+      </div>
+
+
+      <div class="contact">
+        <img src="pictures/email.svg" class="icon"> <!-- email -->
+
+        <h class="text-edit">
+          <a href="mailto:hr@rfpease.org"> hr@rfpease.org</a>
+        </h>
+      </div>
+
+      <!-- 820 -->
+
+
+      <div class="contact">
+        <img src="pictures/address-3.svg" class="icon"> <!-- address -->
+
+        <h class="text-edit">
+          Islamabad , 190034 , house no 20 ,
+          street o-block texas , USA.
+        </h>
+      </div>
+
+      <div class="lower-items">
+
+        <div class="insta-logo">
+          <img src="pictures/instagram-3.svg" class="icon1">
+        </div>
+
+        <div class="facebook-logo">
+          <img src="pictures/facebook-2.svg" class="icon2">
+        </div>
+
+        <div class="linked-logo">
+          <a
+            href="https://www.linkedin.com/in/rfp-ease-601200311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <img src="pictures/linkedin.svg" class="icon3">
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <script>
+    function togglePlaceholder(textarea) {
+      const placeholder = document.getElementById('placeholder');
+      if (textarea.value.trim() === '') {
+        placeholder.style.display = 'block';
+      } else {
+        placeholder.style.display = 'none';
+      }
+    }
+  </script>
+
+
+
+
+</body>
+
+
+
+
+</html>
